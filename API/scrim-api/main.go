@@ -18,7 +18,7 @@ var landingHTML = template.Must(template.New("scrim-landing").Parse(`
 <head data-cast-api-enabled="true">
   <script async defer src="https://github.com/videojs/videojs-contrib-media-sources/releases/download/v0.1.0/videojs-media-sources.js"></script>
   <script async defer src="https://github.com/videojs/videojs-contrib-hls/releases/download/v0.11.2/videojs.hls.min.js"></script>
-  <link rel="icon" type="image/png" href="https://s3.us-east-2.amazonaws.com/scrim-frontend/favicon.ico">
+  <link rel="icon" type="image/png" href="./favicon.ico">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
 
@@ -26,22 +26,22 @@ var landingHTML = template.Must(template.New("scrim-landing").Parse(`
    @font-face {
       font-family: "Kilroy";
       font-weight: 700;
-      src: url("https://s3.us-east-2.amazonaws.com/scrim-frontend/font/Gilroy-ExtraBold.woff") format("woff"), 
-      url("https://s3.us-east-2.amazonaws.com/scrim-frontend/font/Gilroy-ExtraBold.ttf")  format("truetype");
+      src: url("./font/Gilroy-ExtraBold.woff") format("woff"), 
+      url("./font/Gilroy-ExtraBold.ttf")  format("truetype");
     }
 
     @font-face {
       font-family: "Kilroy";
       font-weight: 600;
-      src: url("https://s3.us-east-2.amazonaws.com/scrim-frontend/font/Gilroy-SemiBold.woff") format("woff"), 
-      url("https://s3.us-east-2.amazonaws.com/scrim-frontend/font/Gilroy-SemiBold.ttf")  format("truetype");
+      src: url("./font/Gilroy-SemiBold.woff") format("woff"), 
+      url("./font/Gilroy-SemiBold.ttf")  format("truetype");
     }
 
     @font-face {
       font-family: "Kilroy";
       font-weight: 400;
-      src: url("https://s3.us-east-2.amazonaws.com/scrim-frontend/font/Gilroy-Regular.woff") format("woff"), 
-      url("https://s3.us-east-2.amazonaws.com/scrim-frontend/font/Gilroy-Regular.ttf")  format("truetype");
+      src: url("./font/Gilroy-Regular.woff") format("woff"), 
+      url("./font/Gilroy-Regular.ttf")  format("truetype");
     }
 
     body {
@@ -174,7 +174,7 @@ var landingHTML = template.Must(template.New("scrim-landing").Parse(`
 
 <body>
   <div id="root"></div>
-  <script type="text/javascript" src="https://s3.us-east-2.amazonaws.com/scrim-frontend/main.js?v=13"></script></body>
+  <script type="text/javascript" src="./main.js?v=13"></script></body>
 
 </html>
 `))
